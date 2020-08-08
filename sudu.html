@@ -1,0 +1,41 @@
+
+
+<html>
+<head>
+	<body  style="background-repeat:no-repeat;
+      background-size:cover;background-color: #DFFFDF; ">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no" />
+	<title>hbj | 数独</title>
+	<link rel="Stylesheet" type="text/css" href="soduku.css" />
+</head>
+<body>
+	<div class = "btn-group">
+		<button onclick = "sd.checkRes();" style="background-color:yellow; color:red；">完成</button>
+		<button onclick = "sd.reset();" style="background-color:yellow; color:red；">重置棋盘</button>
+		<button onclick = "sd.again();" style="background-color:yellow; color:red；">重玩本局</button>
+	</div>
+	<script src="http://apps.bdimg.com/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="soduku.js"></script>
+	<script>
+		var sd = new SD;
+		sd.init(30);
+	</script>
+
+
+
+<div id="button">
+<button onclick="tz()" style="background-color:yellow;color:black "> 返回主页 </button>
+ </div>
+
+ <script>
+function tz(){
+    window.location.href='index.html';
+}
+</script>
+
+
+
+	
+</body>
+</html>

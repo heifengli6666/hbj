@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+
+    <body  style="background-repeat:no-repeat;
+      background-size:cover;background-color: #FFECF5; ">
+	<meta charset="utf-8">
+	<title>hbj | 贪吃蛇</title>
+	<embed src="chun1.mp3" hidden="true" autostart="true" loop="true">
+	<script type="text/javascript" src="snake.js"></script>
+
+	<script>
+  
+	</script>
+	    <link rel="icon" href="d2.png">
+</head>
+<body>
+	<style>
+body{
+	text-align: center;
+}
+#snake{
+	margin-top: 100px;
+}
+	</style>
+	<canvas id="snake" width="" height=""></canvas>
+
+	<h4 id="score">得分：0</h4>
+	<h4 id="speed">难度星数：</h4>
+
+	<script>
+	var snake = new Snake("snake","score","speed",15,15);
+		snake.init();
+
+	</script>
+
+
+
+<div id="button">
+<button onclick="tz()" style="background-color:yellow;color:black "> 返回主页 </button>
+ </div>
+
+ <script>
+function tz(){
+    window.location.href='index.html';
+}
+</script>
+
+
+</body>
